@@ -1,0 +1,1 @@
+cmd_/root/kernel/01_day/my_interrupt.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/01_day/my_interrupt.ko /root/kernel/01_day/my_interrupt.o /root/kernel/01_day/my_interrupt.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/root/kernel/01_day/module_param.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/01_day/module_param.ko /root/kernel/01_day/module_param.o /root/kernel/01_day/module_param.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/root/kernel/01_day/my_timer.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/01_day/my_timer.ko /root/kernel/01_day/my_timer.o /root/kernel/01_day/my_timer.mod.o ;  true

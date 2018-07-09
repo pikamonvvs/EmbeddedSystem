@@ -1,0 +1,1 @@
+cmd_/root/kernel/01_day/my_workqueue.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/01_day/my_workqueue.ko /root/kernel/01_day/my_workqueue.o /root/kernel/01_day/my_workqueue.mod.o ;  true
