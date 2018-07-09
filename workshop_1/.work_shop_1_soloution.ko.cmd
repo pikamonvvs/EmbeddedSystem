@@ -1,0 +1,1 @@
+cmd_/root/kernel/workshop_1/work_shop_1_soloution.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/workshop_1/work_shop_1_soloution.ko /root/kernel/workshop_1/work_shop_1_soloution.o /root/kernel/workshop_1/work_shop_1_soloution.mod.o ;  true
