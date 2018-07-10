@@ -1,0 +1,1 @@
+cmd_/root/kernel/03_day/my_vmalloc.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/03_day/my_vmalloc.ko /root/kernel/03_day/my_vmalloc.o /root/kernel/03_day/my_vmalloc.mod.o ;  true

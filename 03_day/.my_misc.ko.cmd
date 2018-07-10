@@ -1,0 +1,1 @@
+cmd_/root/kernel/03_day/my_misc.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/03_day/my_misc.ko /root/kernel/03_day/my_misc.o /root/kernel/03_day/my_misc.mod.o ;  true

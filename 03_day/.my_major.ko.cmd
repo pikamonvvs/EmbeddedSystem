@@ -1,0 +1,1 @@
+cmd_/root/kernel/03_day/my_major.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/03_day/my_major.ko /root/kernel/03_day/my_major.o /root/kernel/03_day/my_major.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/root/kernel/03_day/my_rdwr.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/03_day/my_rdwr.ko /root/kernel/03_day/my_rdwr.o /root/kernel/03_day/my_rdwr.mod.o ;  true

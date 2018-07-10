@@ -1,0 +1,1 @@
+cmd_/root/kernel/02_day/my_process.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/02_day/my_process.ko /root/kernel/02_day/my_process.o /root/kernel/02_day/my_process.mod.o ;  true

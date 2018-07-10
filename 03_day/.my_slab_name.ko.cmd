@@ -1,0 +1,1 @@
+cmd_/root/kernel/03_day/my_slab_name.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/03_day/my_slab_name.ko /root/kernel/03_day/my_slab_name.o /root/kernel/03_day/my_slab_name.mod.o ;  true
