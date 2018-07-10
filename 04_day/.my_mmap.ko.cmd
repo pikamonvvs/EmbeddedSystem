@@ -1,0 +1,1 @@
+cmd_/root/kernel/04_day/my_mmap.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/04_day/my_mmap.ko /root/kernel/04_day/my_mmap.o /root/kernel/04_day/my_mmap.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/root/kernel/workshop_3/my_ramdisk.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/workshop_3/my_ramdisk.ko /root/kernel/workshop_3/my_ramdisk.o /root/kernel/workshop_3/my_ramdisk.mod.o ;  true

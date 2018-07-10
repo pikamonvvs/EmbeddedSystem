@@ -1,0 +1,1 @@
+cmd_/root/kernel/04_day/my_ioctl.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/04_day/my_ioctl.ko /root/kernel/04_day/my_ioctl.o /root/kernel/04_day/my_ioctl.mod.o ;  true

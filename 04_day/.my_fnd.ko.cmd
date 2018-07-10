@@ -1,0 +1,1 @@
+cmd_/root/kernel/04_day/my_fnd.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/04_day/my_fnd.ko /root/kernel/04_day/my_fnd.o /root/kernel/04_day/my_fnd.mod.o ;  true

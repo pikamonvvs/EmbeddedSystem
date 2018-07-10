@@ -1,0 +1,1 @@
+cmd_/root/kernel/04_day/my_gpio_reg.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/04_day/my_gpio_reg.ko /root/kernel/04_day/my_gpio_reg.o /root/kernel/04_day/my_gpio_reg.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/root/kernel/04_day/my_step.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/04_day/my_step.ko /root/kernel/04_day/my_step.o /root/kernel/04_day/my_step.mod.o ;  true
